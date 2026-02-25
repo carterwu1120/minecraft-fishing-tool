@@ -1,0 +1,31 @@
+[project]
+name = "fishing-agent-tool"
+version = "0.1.0"
+description = "OCR-based Minecraft fishing helper with keyword-triggered auto click actions"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "easyocr==1.7.1",
+  "mss==9.0.1",
+  "numpy==1.26.4",
+  "opencv-python==4.10.0.84",
+  "Pillow==10.4.0",
+  "paddleocr==2.8.1",
+  "paddlepaddle==2.6.2",
+  "pyautogui==0.9.54",
+  "pygetwindow==0.0.9",
+  "setuptools>=68",
+]
+
+[project.scripts]
+fishing-agent = "fishing_tool.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["fishing_tool"]
+
+[tool.uv]
+package = true
