@@ -1,0 +1,49 @@
+﻿{
+    "keywords":  [
+                     "Fishing Bobber splashes",
+                     "Bobber splashes"
+                 ],
+    "button_rules":  {
+                         "浮標":  "right"
+                     },
+    "keyword_actions":  {
+                            "Fishing Bobber splashes":  "recast",
+                            "Bobber splashes":  "recast",
+                            "Splashing":  "recast"
+                        },
+    "default_button":  "right",
+    "window_title_contains":  "Minecraft",
+    "region":  null,
+    "focus_region_ratio":  {
+                               "x":  0.58,
+                               "y":  0.66,
+                               "width":  0.41,
+                               "height":  0.32
+                           },
+    "cast_keyword":  "Bobber thrown",
+    "reel_keyword":  "Bobber retrieved",
+    "interval_sec":  0.08,
+    "cooldown_sec":  0.5,
+    "recast_delay_sec":  0.5,
+    "languages":  [
+                      "en"
+                  ],
+    "case_sensitive":  false,
+    "stats_log_file":  "logs/fishing_stats.log",
+    "stats_print_interval_sec":  60,
+    "ocr_engine":  "paddleocr",
+    "ocr_lang":  "en",
+    "print_ocr_text":  true,
+    "bite_presence_keywords":  [
+                                   "Fishing Bobber splashes",
+                                   "Bobber splashes",
+                                   "Splashing"
+                               ],
+    "no_bite_timeout_sec":  10,
+    "no_bite_timeout_action":  "smart_recover",
+    "no_bite_recover_cooldown_sec":  20,
+    "ocr_empty_timeout_sec":  5,
+    "ocr_empty_timeout_action":  "smart_recover",
+    "ocr_empty_recover_cooldown_sec":  10,
+    "smart_recover_probe_wait_sec":  0.35
+}
