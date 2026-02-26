@@ -23,7 +23,7 @@
     "cast_keyword":  "Bobber thrown",
     "reel_keyword":  "Bobber retrieved",
     "interval_sec":  0.08,
-    "cooldown_sec":  0.5,
+    "cooldown_sec":  5,
     "recast_delay_sec":  0.5,
     "languages":  [
                       "en"
